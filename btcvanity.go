@@ -35,7 +35,8 @@ func (b *BTCVanity) Find(pattern string) (IWallet, error) {
 	btcWorker := &worker{gen: &Generator{params: chainParams}}
 
 	mutex := sync.Mutex{}
-	for i := 0; i < b.config.Buffer; i++ {
+	// 	for i := 0; i < b.config.Buffer; i++ {
+	for i := b.config.Buffer - 1; i >= 0; i-- {
 		go func() {
 			for {
 				wallet, err := btcWorker.Work()
