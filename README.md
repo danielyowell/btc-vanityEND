@@ -1,8 +1,8 @@
 # btc-vanity
 
 [![Build Status](https://travis-ci.org/MarinX/btc-vanity.svg?branch=master)](https://travis-ci.org/MarinX/btc-vanity)
-[![Go Report Card](https://goreportcard.com/badge/github.com/MarinX/btc-vanity)](https://goreportcard.com/report/github.com/MarinX/btc-vanity)
-[![GoDoc](https://godoc.org/github.com/MarinX/btc-vanity?status.svg)](https://godoc.org/github.com/MarinX/btc-vanity)
+[![Go Report Card](https://goreportcard.com/badge/github.com/danielyowell/btc-vanityEND)](https://goreportcard.com/report/github.com/danielyowell/btc-vanityEND)
+[![GoDoc](https://godoc.org/github.com/danielyowell/btc-vanityEND?status.svg)](https://godoc.org/github.com/danielyowell/btc-vanityEND)
 [![License MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
 
 Generate Bitcoin Vanity Address
@@ -33,7 +33,7 @@ The frequency of a vanity pattern (1KidsCharity) and average time-to-find on a d
 ## Using library
 #### Install
 ```sh
-go get github.com/MarinX/btc-vanity
+go get github.com/danielyowell/btc-vanityEND
 ```
 
 #### Use it as library
@@ -44,7 +44,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/MarinX/btc-vanity"
+	"github.com/danielyowell/btc-vanityEND"
 )
 
 func main() {
@@ -76,7 +76,7 @@ func main() {
 
 #### Use it as a CLI tool
 ```sh
-go get github.com/MarinX/btc-vanity/cmd/btcvanity
+go get github.com/danielyowell/btc-vanityEND/cmd/btcvanity
 ```
 ```sh
 Usage: ./btcvanity [OPTIONS] pattern
